@@ -28,7 +28,6 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
 document.addEventListener("DOMContentLoaded", ()=>{
   let modalMessage=document.querySelector("#modal-message")
   let errorModal = document.querySelector("#modal")
-  errorModal.classList.add("hidden")
 
   // get like buttons
   let like=document.querySelectorAll(".like-glyph")
